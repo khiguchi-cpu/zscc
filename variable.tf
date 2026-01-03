@@ -50,7 +50,7 @@ variable "aws_instance_key" {
 variable "aws_win_ami" {
   description = "Windowsのami"
   type        = string
-  default     = "ami-0f36f4f3d34a4df19"
+  default     = "ami-06777e7ef7441deff"
 }
 
 variable "aws_win_instance_type" {
@@ -62,7 +62,7 @@ variable "aws_win_instance_type" {
 variable "aws_ac_ami" {
   description = "App Connectorのami"
   type        = string
-  default     = "ami-05b60713705a935c2"
+  default     = "ami-07c77e169f5f94258"
 }
 
 variable "aws_ac_instance_type" {
@@ -74,7 +74,7 @@ variable "aws_ac_instance_type" {
 variable "aws_cc_ami" {
   description = "Cloud Connectorのami"
   type        = string
-  default     = "ami-09db530e8a9188750"
+  default     = "ami-0a7dfac79f3f24414"
 }
 
 variable "aws_cc_instance_type" {
