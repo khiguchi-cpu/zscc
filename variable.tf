@@ -39,7 +39,7 @@ variable "aws_pri2_subnet_cidr" {
 variable "aws_az1_name" {
   description = "Availability zone"
   type        = string
-  default     = "ap-northeast-1a"
+  default     = "us-east-1a"
 }
 
 variable "aws_instance_key" {
