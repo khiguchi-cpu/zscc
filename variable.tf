@@ -138,6 +138,12 @@ variable "aws_secret_name" {
   description = "AWS Secrets Manager Secret Name for Cloud Connector provisioning"
 }
 
+variable "secret_name" {
+  type        = string
+  description = "AWS Secrets Manager Secret Name for Cloud Connector provisioning"
+}
+
+
 variable "http_probe_port" {
   type        = number
   description = "Port number for Cloud Connector cloud init to enable listener port for HTTP probe from GWLB Target Group"
