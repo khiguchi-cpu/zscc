@@ -40,7 +40,8 @@ variable "byo_iam_instance_profile_id" {
   default     = null
 }
 
-variable "secret_name" {
+variable "aws_secret_name" {
   type        = string
   description = "AWS Secrets Manager Secret Name for Cloud Connector provisioning"
+
 }
